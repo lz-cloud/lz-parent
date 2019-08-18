@@ -32,12 +32,27 @@
         <springframework.version>2.1.7.RELEASE</springframework.version>
         <spring-boot-admin.version>2.1.6</spring-boot-admin.version>
         <cms-core.version>3.0.2-SNAPSHOT</cms-core.version>
+        <spring-cloud-starter-config.version>2.1.0.RELEASE</spring-cloud-starter-config.version>
 
         <druid-spring-boot-starter.version>1.1.18</druid-spring-boot-starter.version>
-        <spring-cloud-starter-config.version>2.1.0.RELEASE</spring-cloud-starter-config.version>
+        <mybatis-spring-boot-starter.version>2.1.0</mybatis-spring-boot-starter.version>
         <pagehelper-spring-boot-starter.version>1.2.10</pagehelper-spring-boot-starter.version>
 
+        <jasypt-spring-boot-starter.version>2.1.1</jasypt-spring-boot-starter.version>
+        <aliyun-java-sdk-core.version>4.4.3</aliyun-java-sdk-core.version>
+        <aliyun-sdk-oss.version>3.6.0</aliyun-sdk-oss.version>
+        <fastjson.version>1.2.59</fastjson.version>
+        <aliyun-java-sdk-dysmsapi.version>1.1.0</aliyun-java-sdk-dysmsapi.version>
+        <jackson-annotations.version>2.9.9</jackson-annotations.version>
 
+        <commons-lang3.version>3.9</commons-lang3.version>
+        <commons-beanutils.version>1.9.3</commons-beanutils.version>
+        <okhttp.version>4.1.0</okhttp.version>
+        <zxing.version>3.4.0</zxing.version>
+        <UserAgentUtils.version>1.21</UserAgentUtils.version>
+        <jsoup.version>1.12.1</jsoup.version>
+
+        <druid.version>1.1.19</druid.version>
         <weixin.java.version>3.5.0</weixin.java.version>
         <elasticsearch.version>7.3.0</elasticsearch.version>
         <mybatis.version>3.5.2</mybatis.version>
@@ -85,7 +100,7 @@
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>druid</artifactId>
-            <version>1.1.19</version>
+            <version>${druid.version}</version>
         </dependency>
 
         <dependency>
@@ -125,16 +140,94 @@
                 <artifactId>spring-boot-starter-aop</artifactId>
                 <version>${springframework.version}</version>
             </dependency>
-
             <dependency>
-                <groupId>org.mybatis</groupId>
-                <artifactId>mybatis</artifactId>
-                <version>${mybatis.version}</version>
+                <groupId>org.mybatis.spring.boot</groupId>
+                <artifactId>mybatis-spring-boot-starter</artifactId>
+                <version>${mybatis-spring-boot-starter.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.github.pagehelper</groupId>
                 <artifactId>pagehelper-spring-boot-starter</artifactId>
                 <version>${pagehelper-spring-boot-starter.version}</version><!-- do not update this version, new version is not compatible -->
+            </dependency>
+
+            <!-- 配置加密解密 -->
+            <dependency>
+                <groupId>com.github.ulisesbocchio</groupId>
+                <artifactId>jasypt-spring-boot-starter</artifactId>
+                <version>${jasypt-spring-boot-starter.version}</version>
+            </dependency>
+
+            <!-- 阿里 工具 -->
+            <dependency>
+                <groupId>com.aliyun</groupId>
+                <artifactId>aliyun-java-sdk-core</artifactId>
+                <version>${aliyun-java-sdk-core.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.aliyun.oss</groupId>
+                <artifactId>aliyun-sdk-oss</artifactId>
+                <version>${aliyun-sdk-oss.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>fastjson</artifactId>
+                <version>${fastjson.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.aliyun</groupId>
+                <artifactId>aliyun-java-sdk-dysmsapi</artifactId>
+                <version>${aliyun-java-sdk-dysmsapi.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.fasterxml.jackson.core</groupId>
+                <artifactId>jackson-annotations</artifactId>
+                <version>${jackson-annotations.version}</version>
+            </dependency>
+
+            <!-- 三方辅助 -->
+            <dependency>
+                <groupId>org.apache.commons</groupId>
+                <artifactId>commons-lang3</artifactId>
+                <version>${commons-lang3.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>commons-beanutils</groupId>
+                <artifactId>commons-beanutils</artifactId>
+                <version>${commons-beanutils.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.squareup.okhttp3</groupId>
+                <artifactId>okhttp</artifactId>
+                <version>${okhttp.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.google.zxing</groupId>
+                <artifactId>core</artifactId>
+                <version>${zxing.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.google.zxing</groupId>
+                <artifactId>javase</artifactId>
+                <version>${zxing.version}</version>
+            </dependency>
+
+            <!-- 浏览器信息分析 -->
+            <dependency>
+                <groupId>eu.bitwalker</groupId>
+                <artifactId>UserAgentUtils</artifactId>
+                <version>${UserAgentUtils.version}</version>
+            </dependency>
+
+            <!-- 网页信息抓取 -->
+            <dependency>
+                <groupId>org.jsoup</groupId>
+                <artifactId>jsoup</artifactId>
+                <version>${jsoup.version}</version>
             </dependency>
 
 
