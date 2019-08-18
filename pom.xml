@@ -44,6 +44,7 @@
         <fastjson.version>1.2.59</fastjson.version>
         <aliyun-java-sdk-dysmsapi.version>1.1.0</aliyun-java-sdk-dysmsapi.version>
         <jackson-annotations.version>2.9.9</jackson-annotations.version>
+        <alipay-sdk-java.version>4.3.0.ALL</alipay-sdk-java.version>
 
         <commons-lang3.version>3.9</commons-lang3.version>
         <commons-beanutils.version>1.9.3</commons-beanutils.version>
@@ -174,13 +175,16 @@
                 <artifactId>fastjson</artifactId>
                 <version>${fastjson.version}</version>
             </dependency>
-
             <dependency>
                 <groupId>com.aliyun</groupId>
                 <artifactId>aliyun-java-sdk-dysmsapi</artifactId>
                 <version>${aliyun-java-sdk-dysmsapi.version}</version>
             </dependency>
-
+            <dependency>
+                <groupId>com.alipay.sdk</groupId>
+                <artifactId>alipay-sdk-java</artifactId>
+                <version>${alipay-sdk-java.version}</version>
+            </dependency>
             <dependency>
                 <groupId>com.fasterxml.jackson.core</groupId>
                 <artifactId>jackson-annotations</artifactId>
@@ -322,23 +326,5 @@
             <url>file:${user.home}/project/lz/mvn-repository</url>
         </snapshotRepository>
     </distributionManagement>
-
-
-    <repositories>
-        <repository>
-            <id>nexus-aliyun</id>
-            <name>Nexus aliyun</name>
-            <url>http://maven.aliyun.com/nexus/content/groups/public</url>
-        </repository>
-        <repository>
-            <id>spring-milestones</id>
-            <name>Spring Milestones</name>
-            <url>https://repo.spring.io/milestone</url>
-        </repository>
-        <repository>
-            <id>github-mvn</id>
-            <url>https://github.com/wkclz/mvn-repository/raw/master</url>
-        </repository>
-    </repositories>
 
 </project>
