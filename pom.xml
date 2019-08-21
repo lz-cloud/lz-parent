@@ -31,7 +31,6 @@
         <spring-cloud.version>Greenwich.RELEASE</spring-cloud.version>
         <springframework.version>2.1.7.RELEASE</springframework.version>
         <spring-boot-admin.version>2.1.6</spring-boot-admin.version>
-        <cms-core.version>3.0.2-SNAPSHOT</cms-core.version>
         <spring-cloud-starter-config.version>2.1.0.RELEASE</spring-cloud-starter-config.version>
 
         <druid-spring-boot-starter.version>1.1.18</druid-spring-boot-starter.version>
@@ -57,7 +56,11 @@
         <weixin.java.version>3.5.0</weixin.java.version>
         <elasticsearch.version>7.3.0</elasticsearch.version>
         <mybatis.version>3.5.2</mybatis.version>
+
         <wkclz.excel>1.0.11-SNAPSHOT</wkclz.excel>
+        <lz-sdk.version>0.0.1-SNAPSHOT</lz-sdk.version>
+        <cms-core.version>3.0.2-SNAPSHOT</cms-core.version>
+        <lz-spring-boot-starter.version>0.0.1-SNAPSHOT</lz-spring-boot-starter.version>
     </properties>
 
     <dependencies>
@@ -104,6 +107,12 @@
             <version>${druid.version}</version>
         </dependency>
 
+
+        <dependency>
+            <groupId>com.wkclz.lz</groupId>
+            <artifactId>lz-spring-boot-starter</artifactId>
+            <version>${lz-spring-boot-starter.version}</version>
+        </dependency>
         <dependency>
             <groupId>com.wkclz</groupId>
             <artifactId>cms-core</artifactId>
