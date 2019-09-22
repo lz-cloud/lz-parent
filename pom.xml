@@ -40,7 +40,7 @@
         <jasypt-spring-boot-starter.version>2.1.1</jasypt-spring-boot-starter.version>
         <aliyun-java-sdk-core.version>4.4.3</aliyun-java-sdk-core.version>
         <aliyun-sdk-oss.version>3.6.0</aliyun-sdk-oss.version>
-        <fastjson.version>1.2.59</fastjson.version>
+        <fastjson.version>1.2.61</fastjson.version>
         <aliyun-java-sdk-dysmsapi.version>1.1.0</aliyun-java-sdk-dysmsapi.version>
         <jackson-annotations.version>2.9.9</jackson-annotations.version>
         <alipay-sdk-java.version>4.3.0.ALL</alipay-sdk-java.version>
@@ -52,7 +52,7 @@
         <UserAgentUtils.version>1.21</UserAgentUtils.version>
         <jsoup.version>1.12.1</jsoup.version>
 
-        <druid.version>1.1.19</druid.version>
+        <druid.version>1.1.20</druid.version>
         <weixin.java.version>3.5.0</weixin.java.version>
         <elasticsearch.version>7.3.0</elasticsearch.version>
         <mybatis.version>3.5.2</mybatis.version>
