@@ -61,7 +61,7 @@
 
         <wkclz.excel>1.0.11-SNAPSHOT</wkclz.excel>
         <lz-sdk.version>0.0.1-SNAPSHOT</lz-sdk.version>
-        <cms-core.version>3.0.2-SNAPSHOT</cms-core.version>
+        <lz-core.version>3.0.2-SNAPSHOT</lz-core.version>
         <lz-spring-boot-starter.version>0.0.1-SNAPSHOT</lz-spring-boot-starter.version>
     </properties>
 
@@ -127,8 +127,8 @@
         </dependency>
         <dependency>
             <groupId>com.wkclz</groupId>
-            <artifactId>cms-core</artifactId>
-            <version>${cms-core.version}</version>
+            <artifactId>lz-core</artifactId>
+            <version>${lz-core.version}</version>
         </dependency>
         <dependency>
             <groupId>com.wkclz.util</groupId>
@@ -347,11 +347,11 @@
         <repository>
             <id>nexus</id>
             <name>nexus</name>
-            <url>file:${user.home}/project/lz/mvn-repository</url>
+            <url>file:${user.home}/project/lz-cloud/mvn-repository</url>
         </repository>
         <snapshotRepository>
             <id>Nexus Snapshot</id>
-            <url>file:${user.home}/project/lz/mvn-repository</url>
+            <url>file:${user.home}/project/lz-cloud/mvn-repository</url>
         </snapshotRepository>
     </distributionManagement>
 
