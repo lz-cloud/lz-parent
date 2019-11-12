@@ -126,11 +126,6 @@
             <version>${lz-spring-boot-starter.version}</version>
         </dependency>
         <dependency>
-            <groupId>com.wkclz</groupId>
-            <artifactId>lz-core</artifactId>
-            <version>${lz-core.version}</version>
-        </dependency>
-        <dependency>
             <groupId>com.wkclz.util</groupId>
             <artifactId>excel</artifactId>
             <version>${wkclz.excel}</version>
