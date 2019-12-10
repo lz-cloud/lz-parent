@@ -339,16 +339,14 @@
         </dependencies>
     </dependencyManagement>
 
-
     <distributionManagement>
         <repository>
-            <id>nexus</id>
-            <name>nexus</name>
-            <url>file:${user.home}/project/lz-cloud/mvn-repository</url>
+            <id>rdc-releases</id>
+            <url>https://repo.rdc.aliyun.com/repository/39635-release-c3rPD0/</url>
         </repository>
         <snapshotRepository>
-            <id>Nexus Snapshot</id>
-            <url>file:${user.home}/project/lz-cloud/mvn-repository</url>
+            <id>rdc-snapshots</id>
+            <url>https://repo.rdc.aliyun.com/repository/39635-snapshot-plF5tD/</url>
         </snapshotRepository>
     </distributionManagement>
 
