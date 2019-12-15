@@ -33,7 +33,7 @@
         <spring-boot-admin.version>2.2.0</spring-boot-admin.version>
         <spring-cloud-starter-config.version>2.2.0.RELEASE</spring-cloud-starter-config.version>
 
-        <druid-spring-boot-starter.version>1.1.21</druid-spring-boot-starter.version>
+        <druid-spring-boot-starter.version>1.1.20</druid-spring-boot-starter.version>
         <mybatis-spring-boot-starter.version>2.1.1</mybatis-spring-boot-starter.version>
         <pagehelper-spring-boot-starter.version>1.2.12</pagehelper-spring-boot-starter.version>
 
@@ -51,7 +51,7 @@
         <zxing.version>3.4.0</zxing.version>
         <jsoup.version>1.12.1</jsoup.version>
 
-        <druid.version>1.1.21</druid.version>
+        <druid.version>1.1.20</druid.version>
         <weixin.java.version>3.6.0</weixin.java.version>
         <elasticsearch.version>7.5.0</elasticsearch.version>
         <mybatis.version>3.5.3</mybatis.version>
