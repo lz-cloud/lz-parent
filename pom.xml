@@ -6,7 +6,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.2.1.RELEASE</version>
+        <version>2.2.2.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
@@ -29,12 +29,12 @@
     <properties>
         <java.version>1.8</java.version>
         <spring-cloud.version>Hoxton.RELEASE</spring-cloud.version>
-        <springframework.version>2.2.1.RELEASE</springframework.version>
+        <springframework.version>2.2.2.RELEASE</springframework.version>
         <spring-boot-admin.version>2.2.0</spring-boot-admin.version>
         <spring-cloud-starter-config.version>2.2.0.RELEASE</spring-cloud-starter-config.version>
 
-        <druid-spring-boot-starter.version>1.1.20</druid-spring-boot-starter.version>
-        <mybatis-spring-boot-starter.version>2.1.0</mybatis-spring-boot-starter.version>
+        <druid-spring-boot-starter.version>1.1.21</druid-spring-boot-starter.version>
+        <mybatis-spring-boot-starter.version>2.1.1</mybatis-spring-boot-starter.version>
         <pagehelper-spring-boot-starter.version>1.2.12</pagehelper-spring-boot-starter.version>
 
         <jasypt-spring-boot-starter.version>2.1.1</jasypt-spring-boot-starter.version>
@@ -51,12 +51,12 @@
         <zxing.version>3.4.0</zxing.version>
         <jsoup.version>1.12.1</jsoup.version>
 
-        <druid.version>1.1.20</druid.version>
-        <weixin.java.version>3.5.0</weixin.java.version>
-        <elasticsearch.version>7.4.0</elasticsearch.version>
-        <mybatis.version>3.5.2</mybatis.version>
+        <druid.version>1.1.21</druid.version>
+        <weixin.java.version>3.6.0</weixin.java.version>
+        <elasticsearch.version>7.5.0</elasticsearch.version>
+        <mybatis.version>3.5.3</mybatis.version>
 
-        <hutool.version>4.6.10</hutool.version>
+        <hutool.version>5.0.7</hutool.version>
         <guava.version>28.1-jre</guava.version>
 
         <wkclz.excel>1.0.11-SNAPSHOT</wkclz.excel>
@@ -341,12 +341,13 @@
 
     <distributionManagement>
         <repository>
-            <id>rdc-releases</id>
-            <url>https://repo.rdc.aliyun.com/repository/39635-release-c3rPD0/</url>
+            <id>nexus</id>
+            <name>nexus</name>
+            <url>file:${user.home}/project/lz-cloud/mvn-repository</url>
         </repository>
         <snapshotRepository>
-            <id>rdc-snapshots</id>
-            <url>https://repo.rdc.aliyun.com/repository/39635-snapshot-plF5tD/</url>
+            <id>Nexus Snapshot</id>
+            <url>file:${user.home}/project/lz-cloud/mvn-repository</url>
         </snapshotRepository>
     </distributionManagement>
 
