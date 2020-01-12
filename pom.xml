@@ -60,9 +60,9 @@
         <guava.version>28.1-jre</guava.version>
 
         <wkclz.excel>1.0.11-SNAPSHOT</wkclz.excel>
-        <lz-sdk.version>0.0.1-SNAPSHOT</lz-sdk.version>
+        <lz-sdk.version>3.1.0-SNAPSHOT</lz-sdk.version>
         <lz-core.version>3.1.0-SNAPSHOT</lz-core.version>
-        <lz-spring-boot-starter.version>0.0.1-SNAPSHOT</lz-spring-boot-starter.version>
+        <lz-spring-boot-starter.version>3.1.0-SNAPSHOT</lz-spring-boot-starter.version>
     </properties>
 
     <dependencies>
