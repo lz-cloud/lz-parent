@@ -343,11 +343,11 @@
         <repository>
             <id>nexus</id>
             <name>nexus</name>
-            <url>file:${user.home}/repository</url>
+            <url>file:${user.home}/mvnrepo/repository</url>
         </repository>
         <snapshotRepository>
             <id>Nexus Snapshot</id>
-            <url>file:${user.home}/repository</url>
+            <url>file:${user.home}/mvnrepo/repository</url>
         </snapshotRepository>
     </distributionManagement>
 
