@@ -61,7 +61,6 @@
 
         <wkclz.excel>1.0.11-SNAPSHOT</wkclz.excel>
         <lz.version>3.1.0-SNAPSHOT</lz.version>
-        <lz-sdk.version>3.1.0-SNAPSHOT</lz-sdk.version>
         <lz-core.version>3.1.0-SNAPSHOT</lz-core.version>
         <lz-spring-boot-starter.version>3.1.0-SNAPSHOT</lz-spring-boot-starter.version>
     </properties>
@@ -204,13 +203,20 @@
                 <artifactId>alipay-sdk-java</artifactId>
                 <version>${alipay-sdk-java.version}</version>
             </dependency>
+
+            <dependency>
+                <groupId>com.wkclz.core</groupId>
+                <artifactId>lz-core</artifactId>
+                <version>${lz-core.version}</version>
+            </dependency>
+
+            <!-- 三方辅助 -->
             <dependency>
                 <groupId>com.fasterxml.jackson.core</groupId>
                 <artifactId>jackson-annotations</artifactId>
                 <version>${jackson-annotations.version}</version>
             </dependency>
 
-            <!-- 三方辅助 -->
             <dependency>
                 <groupId>org.apache.commons</groupId>
                 <artifactId>commons-lang3</artifactId>
